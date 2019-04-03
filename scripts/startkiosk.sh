@@ -17,7 +17,8 @@ unclutter &
 # matchbox-window-manager -use_cursor no -use_titlebar no  &
 
 # run chromuim
-chromium-browser --noerrdialogs --kiosk --incognito https://www.google.co.kr/
+chromium-browser https://www.google.co.kr/ --noerrdialogs --start-fullscreen --kiosk --window-size=1920,1080 --disable-translate
+#--incognito
 #--window-size=1920,1080
 #--start-fullscreen 
 #--disable-translate

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo apt install ttf-unfonts-core --yes
+sudo apt-get install fonts-unfonts-core --yes
