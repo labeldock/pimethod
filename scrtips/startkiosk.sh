@@ -10,7 +10,7 @@ xset s off
 xset s noblank
 
 # disable mouse pointer
-unclutter -idle 0 -root &
+# unclutter -idle 0 -root &
 
 # run window manager
 matchbox-window-manager -use_cursor no -use_titlebar no  &
