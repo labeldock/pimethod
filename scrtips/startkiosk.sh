@@ -14,10 +14,10 @@ xset s noblank
 unclutter &
 
 # run window manager
-matchbox-window-manager -use_cursor no -use_titlebar no  &
+# matchbox-window-manager -use_cursor no -use_titlebar no  &
 
 # run chromuim
-#chromium-browser --noerrdialogs --kiosk --incognito https://www.google.co.kr/
+chromium-browser --noerrdialogs --kiosk --incognito https://www.google.co.kr/
 #--window-size=1920,1080
 #--start-fullscreen 
 #--disable-translate
