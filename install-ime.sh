@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo apt-get ibus ibus-hangul --yes && ibus engine hangul
+sudo apt install ibus ibus-hangul --yes && ibus engine hangul
