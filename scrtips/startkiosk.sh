@@ -16,10 +16,10 @@ xset s noblank
 matchbox-window-manager -use_cursor no -use_titlebar no  &
 
 # run chromuim
-#chromium-browser --noerrdialogs --kiosk --incognito https://www.google.co.kr/
-if [ $# -ne 0 ];
-then
-  chromium-browser --noerrdialogs --kiosk --incognito $1
-else
-  chromium-browser --noerrdialogs --incognito https://www.google.co.kr/
-fi
+chromium-browser --noerrdialogs --kiosk --incognito https://www.google.co.kr/
+#if [ $# -ne 0 ];
+#then
+#  chromium-browser --noerrdialogs --kiosk --incognito $1
+#else
+#  chromium-browser --noerrdialogs --incognito https://www.google.co.kr/
+#fi
