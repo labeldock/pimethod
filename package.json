@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "termui": "npx gritty",
-    "vueui": "npx -p '@vue/cli' -c 'vue ui'"
+    "termui": "gritty",
+    "vueui": "vue ui"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/labeldock/pimethod/issues"
   },
-  "homepage": "https://github.com/labeldock/pimethod#readme"
+  "homepage": "https://github.com/labeldock/pimethod#readme",
+  "dependencies": {
+    "@vue/cli": "^3.5.5",
+    "gritty": "^4.3.9"
+  }
 }
