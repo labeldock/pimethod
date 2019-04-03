@@ -12,7 +12,7 @@ then
   tmux send-keys -t $TMUXSNAME:0.0 'npm run vueui' C-m
   tmux send-keys -t $TMUXSNAME:0.1 'npm run termui' C-m
   tmux send-keys -t $TMUXSNAME:0.2 'htop' C-m
-  tmux send-keys -t $TMUXSNAME:0.3 'echo "Press C-b d"'
+  tmux send-keys -t $TMUXSNAME:0.3 'echo "Press C-b d"'  C-m
   tmux select-window -t $TMUXSNAME:0.3
   
 fi
