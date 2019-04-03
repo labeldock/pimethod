@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-sudo apt install ibus ibus-hangul --yes && ibus engine hangul
+sudo apt install fcitx-hangul --yes
+im-config -n fcitx
