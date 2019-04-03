@@ -17,7 +17,7 @@ unclutter &
 # matchbox-window-manager -use_cursor no -use_titlebar no  &
 
 # run chromuim
-chromium-browser $1 --noerrdialogs --no-first-run --start-fullscreen --window-size=1920,1080 --disable-translate
+chromium-browser http://localhost:1337 --noerrdialogs --no-first-run --start-fullscreen --window-size=1920,1080 --disable-translate
 #--kiosk
 #--incognito
 #--window-size=1920,1080

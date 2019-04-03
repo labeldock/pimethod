@@ -2,5 +2,5 @@
 .$PWD/scripts/startx.sh
 
 if [ -z "${SSH_TTY}" ]; then
-  xinit $PWD/scripts/startkiosk.sh $1
+  xinit $PWD/scripts/startkiosk.sh
 fi

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "termui": "npx gritty",
+    "vueui": "npx -p '@vue/cli' -c 'vue ui'"
   },
   "repository": {
     "type": "git",
